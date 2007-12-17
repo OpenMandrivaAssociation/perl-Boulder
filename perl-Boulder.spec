@@ -10,7 +10,6 @@ Source:		http://search.cpan.org/CPAN/modules/by-module/%{modname}/%{modname}-%{v
 URL:		http://search.cpan.org/dist/Boulder/
 BuildRequires:	perl
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Boulder - An API for hierarchical tag/value structures
