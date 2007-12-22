@@ -2,7 +2,7 @@
 
 Name:		perl-%{modname}
 Version:	1.30
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Boulder - An API for hierarchical tag/value structures
