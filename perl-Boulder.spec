@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	1.30
-Release:	%mkrel 3
+Release:	%mkrel 5
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	An API for hierarchical tag/value structures
