@@ -1,8 +1,10 @@
 %define module	Boulder
 
+%define _requires_exceptions perl(LabBase)
+
 Name:		perl-%{module}
 Version:	1.30
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	An API for hierarchical tag/value structures
