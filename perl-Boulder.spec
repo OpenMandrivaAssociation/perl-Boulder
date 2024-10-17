@@ -14,7 +14,7 @@ Release:	5
 Summary:	An API for hierarchical tag/value structures
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/Boulder/
+Url:		https://search.cpan.org/dist/Boulder/
 Source0:	http://search.cpan.org/CPAN/modules/by-module/Boulder/%{upstream_name}-%{upstream_version}.tar.bz2
 
 BuildRequires:	perl-devel
