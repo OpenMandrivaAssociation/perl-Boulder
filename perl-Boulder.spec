@@ -17,6 +17,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/Boulder/
 Source0:	http://search.cpan.org/CPAN/modules/by-module/Boulder/%{upstream_name}-%{upstream_version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
