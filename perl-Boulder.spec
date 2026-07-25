@@ -8,14 +8,14 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	An API for hierarchical tag/value structures
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/Boulder/
-Source0:	http://search.cpan.org/CPAN/modules/by-module/Boulder/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Boulder
+Source0:	https://cpan.metacpan.org/authors/id/L/LD/LDS/Boulder-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
