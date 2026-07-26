@@ -1,6 +1,4 @@
 %define upstream_name	 Boulder
-%define upstream_version 1.30
-
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(LabBase\\)'
 %else
@@ -8,14 +6,14 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.30
+Release:	7
 
 Summary:	An API for hierarchical tag/value structures
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Boulder
-Source0:	https://cpan.metacpan.org/authors/id/L/LD/LDS/Boulder-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/L/LD/LDS/Boulder-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -25,7 +23,7 @@ BuildArch:	noarch
 An API for hierarchical tag/value structures.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -48,9 +46,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Aug 04 2009 Jérôme Quelin <jquelin@mandriva.org> 1.300.0-1mdv2011.0
 + Revision: 408915
-- rebuild using %%perl_convert_version
-
-* Sun Jan 25 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.30-6mdv2009.1
+- rebuild using %1.30 Sun Jan 25 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.30-6mdv2009.1
 + Revision: 333473
 - fix dependencies
 
