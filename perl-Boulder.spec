@@ -1,4 +1,5 @@
 %define upstream_name	 Boulder
+%define upstream_version 1.30
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(LabBase\\)'
 %else
@@ -7,13 +8,13 @@
 
 Name:		perl-%{upstream_name}
 Version:	1.30
-Release:	7
+Release:	1
 
 Summary:	An API for hierarchical tag/value structures
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Boulder
-Source0:	https://cpan.metacpan.org/authors/id/L/LD/LDS/Boulder-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/L/LD/LDS/Boulder-1.30.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
